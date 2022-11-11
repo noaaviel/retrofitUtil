@@ -20,6 +20,7 @@ public class AppManager extends Application {
             .build();
 
     // now with retrofit we can create jsonplaceholder
+    //https://www.digitalocean.com/community/tutorials/retrofit-android-example-tutorial
     static classAPI jsonPlaceHolder = retrofit.create(classAPI.class);
 
 
